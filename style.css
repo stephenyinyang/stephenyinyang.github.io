@@ -1,0 +1,105 @@
+
+#title, #subtitle, #dateDisplay{
+    text-align: center;
+    width: 300px;
+    margin-right: 400px;
+    margin-left:auto;
+}
+.table {
+    text-align: center;
+}
+#grid{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+
+    
+}
+#monthNavTitle{
+    text-align: left;
+}
+#calendarNav{
+    position: absolute;
+    padding-left: 75px;
+    padding-top: 30px;
+    padding-right: 10px;
+    top: 0;
+    left: 0;
+
+    
+}
+#calendar{
+    margin-right:auto;
+    margin-left: 250px;
+}
+#headerRow{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.table {
+    border: "1";
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+}
+.regCell {
+    border: 1px solid black;
+}
+.cell {
+    border: 1px solid black;
+}
+
+.cellSelected {
+    border: 3px solid black;
+    background-color: yellow;
+}
+.cellInitialSelected {
+    border: 3px solid black;
+    background-color: yellow;
+}
+.cellSelectedHover {
+    border: 3px solid black;
+    background-color: pink;
+}
+
+.cell:hover, .currentDay:hover {
+    background-color: black;
+}
+.currentDay{
+    background-color: yellow;
+}
+
+.myCanvas {
+
+    position: absolute;
+}
+
+#time, #court1, #court2, #court3, #court4, #court5, #court6 {
+    width: 140px;
+}
+
+#time {
+    width: 80px;
+}
+
+#myPopup {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 275px;
+    padding-left: 12.5px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0);
+}
+#popupContent {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%;
+}
